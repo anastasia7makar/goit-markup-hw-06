@@ -335,6 +335,10 @@ li .ph-number:focus {
   margin-bottom: 10px;
 }
 
+.field-container.textarea {
+  margin-bottom: 18px;
+}
+
 .form-field {
   position: relative;
   width: 100%;
@@ -402,7 +406,6 @@ textarea {
   display: flex;
   align-items: center;
   padding-left: 12px;
-  margin-top: 6px;
   margin-bottom: 30px;
 }
 
