@@ -453,6 +453,10 @@ textarea {
   cursor: pointer;
 }
 
+.checkbox:focus + .icon {
+  border: 2px solid var(--accent-color);
+}
+
 .checkbox:checked + .icon {
   border: transparent;
   background-color: var(--accent-color);
@@ -704,7 +708,7 @@ footer {
   background-color: var(--black-for-bg);
 }
 
-/* Контвктна інформація */
+/* Контaктна інформація */
 footer .logo,
 footer .address {
   color: var(--primary-white-color);
@@ -745,10 +749,7 @@ address > .address,
 .address-info {
   display: flex;
   align-items: baseline;
-}
-
-.container-link {
-  margin-left: 70px;
+  justify-content: space-between;
 }
 
 .list-item .item + .item {
@@ -788,7 +789,6 @@ address > .address,
 
 .subscribe-box {
   width: 570px;
-  margin-left: 93px;
 }
 
 .subscribe-form {
