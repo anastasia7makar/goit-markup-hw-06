@@ -327,15 +327,7 @@ li .ph-number:focus {
   color: var(--title-text-color);
 }
 
-.field-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.field-container.textarea {
+.form-field.textarea {
   margin-bottom: 18px;
 }
 
@@ -343,6 +335,7 @@ li .ph-number:focus {
   position: relative;
   width: 100%;
   cursor: pointer;
+   margin-bottom: 10px;
 }
 
 .form-field .form-icon {
@@ -355,6 +348,7 @@ li .ph-number:focus {
 }
 
 .form-label {
+  display: inline-block;
   margin-bottom: 4px;
 
   font-size: 12px;
